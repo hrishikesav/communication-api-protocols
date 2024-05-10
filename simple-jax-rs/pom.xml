@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.hrishi.api</groupId>
+        <artifactId>communication-api-protocols</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>simple-jax-rs</artifactId>
+    <packaging>war</packaging>
+    <name>simple-jax-rs Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>simple-jax-rs</finalName>
+    </build>
+</project>

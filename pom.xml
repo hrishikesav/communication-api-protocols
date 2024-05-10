@@ -12,6 +12,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>grpc-api</module>
+      <module>simple-jax-rs</module>
   </modules>
 
   <properties>

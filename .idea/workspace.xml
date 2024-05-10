@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4901db6a-0a22-4f4c-ad65-f212f4fb0ea9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-api/src/main/java/com/hrishi/api/GrpcClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-api/src/main/java/com/hrishi/api/GrpcServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-api/src/main/java/com/hrishi/api/grpc/server/HelloServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-api/src/main/proto/HelloService.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-api/src/test/java/com/hrishi/api/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4901db6a-0a22-4f4c-ad65-f212f4fb0ea9" name="Changes" comment="Adding README.md">
+      <change afterPath="$PROJECT_DIR$/simple-jax-rs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/java/com/hrishi/jaxrs/NotificationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/java/com/hrishi/jaxrs/RestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +31,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hrishikesav&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="30afdd55-ef49-41f1-a9ac-a81c1148996b" />
+        <option name="url" value="https://github.com/hrishikesav/communication-api-protocols.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2gFiHFsPeiLbg4MXFI4aD6xaUcy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -49,13 +69,20 @@
     "Maven.grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-javanano].executor": "Run",
     "Maven.grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
     "Maven.grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:help].executor": "Run",
+    "Maven.simple-jax-rs [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.simple-jax-rs [org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile].executor": "Run",
+    "Maven.simple-jax-rs [org.apache.maven.plugins:maven-war-plugin:3.4.0:war].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Hrish/IdeaProjects/communication-api-protocols/grpc-api/src/main/proto"
+    "last_opened_file_path": "C:/Users/Hrish/IdeaProjects/communication-api-protocols/grpc-api/src/main/proto",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -147,6 +174,19 @@
       <option name="presentableId" value="Default" />
       <updated>1715249082021</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding README.md">
+      <option name="closed" value="true" />
+      <created>1715261957472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715261957472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding README.md" />
   </component>
 </project>
