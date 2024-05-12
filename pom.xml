@@ -13,6 +13,7 @@
   <modules>
     <module>grpc-api</module>
       <module>simple-jax-rs</module>
+      <module>spring-rest</module>
   </modules>
 
   <properties>

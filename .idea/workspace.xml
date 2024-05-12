@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4901db6a-0a22-4f4c-ad65-f212f4fb0ea9" name="Changes" comment="Adding README.md">
-      <change afterPath="$PROJECT_DIR$/simple-jax-rs/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/java/com/hrishi/jaxrs/NotificationResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/java/com/hrishi/jaxrs/RestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple-jax-rs/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="4901db6a-0a22-4f4c-ad65-f212f4fb0ea9" name="Changes" comment="Adding Spring REST">
+      <change afterPath="$PROJECT_DIR$/spring-rest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/dao/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/service/EmployeeNotFoundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/service/EmployeeNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/java/com/hrishi/api/util/LoadDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-rest/src/test/java/com/hrishi/api/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -24,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +83,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Hrish/IdeaProjects/communication-api-protocols/grpc-api/src/main/proto",
+    "last_opened_file_path": "C:/Users/Hrish/IdeaProjects/communication-api-protocols/spring-rest/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -87,13 +92,27 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hrish\IdeaProjects\communication-api-protocols\spring-rest\src\main\resources" />
       <recent name="C:\Users\Hrish\IdeaProjects\communication-api-protocols\grpc-api\src\main\proto" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hrish\IdeaProjects\communication-api-protocols\grpc-api\src\main\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GrpcServer">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hrishi.api.App" />
+      <module name="spring-rest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrishi.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GrpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hrishi.api.GrpcServer" />
       <module name="grpc-api" />
@@ -154,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.GrpcServer" />
       </list>
     </recent_temporary>
@@ -182,11 +202,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715261957472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding simple JAX-RS application">
+      <option name="closed" value="true" />
+      <created>1715311042921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715311042921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding README.md" />
+    <MESSAGE value="Adding simple JAX-RS application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding simple JAX-RS application" />
   </component>
 </project>
